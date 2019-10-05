@@ -5,7 +5,6 @@
 @import 'buttons.scss';
 @import 'about.scss';
 @import 'projects.scss';
-@import 'signup.scss';
 @import 'contact.scss';
 
 body {
@@ -22,8 +21,12 @@ a {
   }
 }
 
-.bg-black {
-  background-color: $black !important;
+.bg-pink {
+  background-color: $pink !important;
+}
+
+.bg-red {
+  background-color: $red !important;
 }
 
 .bg-primary {
@@ -35,5 +38,5 @@ a {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 15rem 0;
 }

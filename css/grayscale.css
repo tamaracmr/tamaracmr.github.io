@@ -199,17 +199,6 @@
   padding: 10rem 0;
 }
 
-.projects-section .featured-text {
-  padding: 2rem;
-}
-
-@media (min-width: 992px) {
-  .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #173457;
-  }
-}
-
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
@@ -220,34 +209,14 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #173457;
+    border-color: #EEE0E4;
     border-width: .25rem;
     width: 30%;
   }
 }
 
-.signup-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.signup-section .form-inline input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
-
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 15rem 0 0;
 }
 
 .contact-section .card {
@@ -276,14 +245,14 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .contact-section .social a:active {
@@ -304,8 +273,12 @@ a:focus, a:hover {
   color: #020406;
 }
 
-.bg-black {
-  background-color: #161616 !important;
+.bg-pink {
+  background-color: #EEE0E4 !important;
+}
+
+.bg-red {
+  background-color: #EA544A !important;
 }
 
 .bg-primary {
@@ -317,5 +290,5 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 15rem 0;
 }
