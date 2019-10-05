@@ -6,14 +6,14 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: #EEE0E4;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #173457;
+  border: 1px solid #173457;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -21,13 +21,17 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #173457;
   font-weight: 700;
   padding: .9rem 0;
 }
 
+#mainNav .navbar-brand img {
+  height: 60px;
+}
+
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(primary, 80%);
   outline: none;
   background-color: transparent;
 }
@@ -47,40 +51,43 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(23, 52, 87, 0.5);
+  }
+  #mainNav .navbar-brand img {
+    height: 60px;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(23, 52, 87, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(23, 52, 87, 0.75);
   }
   #mainNav .nav-link:active {
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #EEE0E4;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #173457;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #173457;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #173457;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #07101a;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #173457;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #173457;
   }
 }
 
@@ -90,7 +97,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: url("../img/bg-landing.png");
+  background-color: #EEE0E4;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -102,7 +110,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background-color: #173457;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -146,29 +154,45 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #173457;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #0c1c2f;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #0c1c2f;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #07101a !important;
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/bg-about.png");
+  background-color: #EEE0E4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  height: 100vh;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .about-section p {
+    margin-bottom: 5rem;
+  }
 }
 
 .projects-section {
@@ -182,7 +206,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #173457;
   }
 }
 
@@ -196,7 +220,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #173457;
     border-width: .25rem;
     width: 30%;
   }
@@ -228,7 +252,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #173457;
 }
 
 .contact-section .card h4 {
@@ -239,7 +263,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #173457;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -272,12 +296,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #173457;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #020406;
 }
 
 .bg-black {
@@ -285,11 +309,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #173457 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #173457 !important;
 }
 
 footer {

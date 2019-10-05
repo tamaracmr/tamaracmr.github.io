@@ -1,7 +1,20 @@
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url('../img/bg-about.png');
+  background-color: $pink;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
   p {
+  @media(min-width: 992px) {
     margin-bottom: 5rem;
+  }
+    height: 100vh;
+    padding: 0;
   }
 }
