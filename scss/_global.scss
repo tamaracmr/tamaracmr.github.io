@@ -1,0 +1,34 @@
+.bg-pink {
+  background-color: $pink !important;
+}
+
+.bg-red {
+  background-color: $red !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+footer {
+  padding: 5rem 0;
+}
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+a {
+  color: $primary;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: darken($primary, 20%);
+  }
+}
+
+.text-primary {
+  color: $primary !important;
+}

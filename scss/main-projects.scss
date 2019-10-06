@@ -1,0 +1,42 @@
+@import 'variables';
+@import "global";
+@import 'mixins';
+@import 'navbar';
+@import 'masthead';
+@import 'buttons';
+@import 'about';
+@import 'projects';
+@import 'contact';
+
+
+
+.project-selector {
+  &:hover {
+    div {
+      text-decoration: none;
+      background-color: $primary !important;
+    }
+  }
+}
+.row {
+  margin-top: 1rem;
+}
+
+
+.projects-table {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url('../img/bg-auxiliar.png');
+  background-color: $pink;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+

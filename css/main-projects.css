@@ -4,6 +4,40 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+.bg-pink {
+  background-color: #EEE0E4 !important;
+}
+
+.bg-red {
+  background-color: #EA544A !important;
+}
+
+.bg-primary {
+  background-color: #173457 !important;
+}
+
+footer {
+  padding: 5rem 0;
+}
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+a {
+  color: #173457;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #020406;
+}
+
+.text-primary {
+  color: #173457 !important;
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #EEE0E4;
@@ -216,7 +250,7 @@
 }
 
 .contact-section {
-  padding: 15rem 0 0;
+  padding: 7rem 0 0;
 }
 
 .contact-section .card {
@@ -259,36 +293,25 @@
   color: #fff;
 }
 
-body {
-  font-family: 'Nunito';
-  letter-spacing: 0.0625em;
-}
-
-a {
-  color: #173457;
-}
-
-a:focus, a:hover {
+.project-selector:hover div {
   text-decoration: none;
-  color: #020406;
-}
-
-.bg-pink {
-  background-color: #EEE0E4 !important;
-}
-
-.bg-red {
-  background-color: #EA544A !important;
-}
-
-.bg-primary {
   background-color: #173457 !important;
 }
 
-.text-primary {
-  color: #173457 !important;
+.row {
+  margin-top: 1rem;
 }
 
-footer {
+.projects-table {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
   padding: 15rem 0;
+  background: url("../img/bg-auxiliar.png");
+  background-color: #EEE0E4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
