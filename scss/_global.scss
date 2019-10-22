@@ -32,3 +32,12 @@ a {
 .text-primary {
   color: $primary !important;
 }
+
+.btn-tamara {
+  font-size: 80%;
+  color: $primary;
+  border: 1px solid $primary !important;
+  &:focus {
+    outline: none;
+  }
+}
