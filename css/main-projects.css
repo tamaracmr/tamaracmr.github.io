@@ -302,6 +302,10 @@ a:focus, a:hover {
   margin-top: 1rem;
 }
 
+img {
+  border-radius: 25px;
+}
+
 .projects-table {
   position: relative;
   width: 100%;
