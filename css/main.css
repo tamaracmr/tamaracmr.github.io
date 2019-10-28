@@ -53,6 +53,7 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-toggler {
+  font-family: 'Raleway', sans-serif;
   font-size: 80%;
   padding: 0.75rem;
   color: #173457;
@@ -155,7 +156,7 @@ a:focus, a:hover {
 }
 
 .masthead h2 {
-  max-width: 20rem;
+  max-width: 22rem;
   font-size: 1rem;
 }
 
@@ -178,7 +179,7 @@ a:focus, a:hover {
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: 'Raleway', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -215,6 +216,11 @@ a:focus, a:hover {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.about-section h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .about-section p {
