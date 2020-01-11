@@ -22,9 +22,7 @@
   margin-top: 1rem;
 }
 
-img {
-  border-radius: 25px;
-}
+
 
 .projects-table {
   position: relative;
@@ -32,7 +30,7 @@ img {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url('../img/bg-auxiliar.png');
+  
   background-color: $pink;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +39,8 @@ img {
 }
 
 h1{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
+    font-weight:bold;
 }
 
 p{
