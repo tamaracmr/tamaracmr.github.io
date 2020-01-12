@@ -47,6 +47,10 @@ a:focus, a:hover {
   outline: none;
 }
 
+.card, .navbar, .pagination .page-item.active .page-link {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #EEE0E4;
