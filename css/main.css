@@ -255,7 +255,7 @@ a:focus, a:hover {
   .projects-section .project-text hr {
     border-color: #EEE0E4;
     border-width: .25rem;
-    width: 30%;
+    
   }
 }
 
@@ -303,7 +303,7 @@ a:focus, a:hover {
   color: #fff;
 }
 
-.project-selector:hover div {
+a.project-selector:hover div {
   text-decoration: none;
   background-color: #173457 !important;
 }
