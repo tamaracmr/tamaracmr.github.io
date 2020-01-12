@@ -52,9 +52,6 @@ function modules() {
   // Bootstrap
   var bootstrap = gulp.src('./node_modules/bootstrap/dist/**/*')
     .pipe(gulp.dest('./vendor/bootstrap'));
-  // mdbootstrap
-  var mdbootstrap = gulp.src('./node_modules/mdbootstrap/**/*')
-      .pipe(gulp.dest('./vendor/mdbootstrap'));
   // Font Awesome CSS
   var fontAwesomeCSS = gulp.src('./node_modules/@fortawesome/fontawesome-free/css/**/*')
     .pipe(gulp.dest('./vendor/fontawesome-free/css'));
@@ -70,7 +67,7 @@ function modules() {
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./vendor/jquery'));
-  return merge(bootstrap, mdbootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing);
+  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing);
 }
 
 // CSS task

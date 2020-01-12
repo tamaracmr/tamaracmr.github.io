@@ -15,7 +15,7 @@ footer {
 }
 
 body {
-  
+
   letter-spacing: 0.0625em;
 }
 
@@ -37,6 +37,7 @@ a {
   font-size: 80%;
   color: $primary;
   border: 1px solid $primary !important;
+
   &:focus {
     outline: none;
   }

@@ -75,7 +75,7 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(primary, 80%);
+  color: fade(#173457, 80%);
   outline: none;
   background-color: transparent;
 }
