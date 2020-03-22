@@ -244,13 +244,13 @@
 	font-size: 12px;
 	
 }
-.owl-theme .owl-controls .owl-buttons {
+.owl-theme .owl-controls .owl-buttons .owl-prev{
 	position:absolute;
 	top:0;
 	left:0;
 }
 .owl-theme .owl-controls .owl-buttons .owl-next,
-.owl-theme .owl-controls .owl-buttons {
+.owl-theme .owl-controls .owl-buttons .owl-prev{
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
