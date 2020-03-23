@@ -283,6 +283,7 @@ Main components
 	-ms-transform: translateY(-55%);
 	-o-transform: translateY(-55%);
 	transform: translateY(-55%);
+    font-family: 'Raleway', sans-serif;
 }
 @media only screen and (max-width: 300px) {
 .cd-primary-nav ul.cd-scndr-nav{
@@ -325,6 +326,7 @@ Main components
     -o-transition: all 300ms linear;
     -ms-transition: all 300ms linear;
     transition: all 300ms linear; 
+   
 }
 .cd-primary-nav.is-visible {
   -webkit-transform: translateY(0);
@@ -405,7 +407,7 @@ a.curent-nav-color{
 	border-right:1px solid transparent;
 }
 .list-social-nav li.icon-soc-nav a {
-	font-family: 'Imprima', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	line-height: 30px;
 	width:50px;
@@ -1722,9 +1724,7 @@ video#video_background_home {
 
 .text-bottom-margin{
     text-align: center;
-    
-    
-	padding-bottom:15px;
+    padding-bottom:15px;
     color: black;
     font-family: 'Imprima', sans-serif;
 }
@@ -1856,7 +1856,7 @@ seven columns{
     transition: all 300ms linear; 
 }
 .list-social-team li.icon-soc-team a {
-	font-family: 'Imprima', sans-serif;
+    font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	line-height: 22px;
 	width:22px;
@@ -2435,7 +2435,7 @@ seven columns{
 	background-image:url('../images/6/principal.jpg');
 }
 .project24-top-image{
-	background-image:url('../images/24/principal.gif');
+	background-image:url('../images/24/principal.jpg');
 }
 .project7-top-image{
 	background-image:url('../images/7/principal.jpg');
