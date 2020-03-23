@@ -2873,7 +2873,6 @@ font-family: 'Imprima', sans-serif;
 }
 .blog-post.quote-post p{
 	text-align:left;
-	text-transform:uppercase;
 	color:#fff;
 	font-weight:800;
 	letter-spacing:3px;
@@ -4414,6 +4413,7 @@ a.checkout__button:focus {
 	margin:0 auto;
 	z-index:1;
 	background:url('../images/contact.jpg');
+    background-size: cover;
 }
 
 
