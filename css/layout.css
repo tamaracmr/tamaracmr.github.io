@@ -73,7 +73,7 @@ Main components
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media only screen and (min-width: 1170px) {
+/*@media only screen and (min-width: 1170px) {
      .cd-header {
       position: fixed;
       background: white;
@@ -81,7 +81,7 @@ Main components
       width: 100%;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   }
-}
+} */
 @media only screen and (min-width: 1170px) {
   .cd-header {
       
