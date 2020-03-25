@@ -73,8 +73,8 @@ Main components
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media only screen and (min-width: 1400px) {
-  .cd-header {
+@media only screen and (min-width: 1170px) {
+     .cd-header {
       position: fixed;
       background: white;
       height: 75px;
