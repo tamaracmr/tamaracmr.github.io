@@ -40,6 +40,50 @@
 	<link href="https://fonts.googleapis.com/css?family=Imprima&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	
+<style>
+* {box-sizing: border-box}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+ 
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+</style>
 	
 	
 	
@@ -150,16 +194,43 @@
 							</div>	
 								<div class="item-one-half">	
 								<img src="images/3/4.jpg" alt="">	
+							</div>
+							<div class="item-one-half" "slideshow-container">	
+								<div class="mySlides fade">
+                                    <img src="images/3/02edi.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/3/04-edi.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/3/05-edi.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/3/06-edi.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/3/07-edit.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/3/08-edit.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/3/10-edit.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides fade">
+                                    <img src="images/3/11-edit.jpg" style="width:100%">
+                                    </div>
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>	
 							</div>		
 							<div class="item-one-half">	
 								<img src="images/3/foto.jpg" alt="">	
 							</div>	
+							
 							<div class="item-one-half">	
 								<img src="images/3/5.jpg" alt="">	
 							</div>		
-							<div class="item-one-half">	
-								<img src="images/3/foto6.jpg" alt="">	
-							</div>	
+							
 						</div>	
 					
 					</div>
@@ -229,6 +300,36 @@
 		
 	<!-- JAVASCRIPT
     ================================================== -->
+    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
 <script type="text/javascript" src="js/jquery.js"></script>	
 <script type="text/javascript" src="js/modernizr.custom.js"></script> 
 <script type="text/javascript" src="js/royal_preloader.min.js"></script>
