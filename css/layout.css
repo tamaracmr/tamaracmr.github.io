@@ -32,11 +32,11 @@
     text-decoration:none
 }
 
-/*, *:after, *:before {
+, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}*/
+}
 body.overflow-hidden {
   /* when primary navigation is visible, the content in the background won't scroll */
   overflow: hidden;
@@ -893,11 +893,11 @@ a.scroll-down {
     transition: all 300ms linear; 
 }
 
-/* *, *::after, *::before {
+ *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-} */
+} 
 
 body::before {
   /* never visible - this is used in jQuery to check the current MQ */
