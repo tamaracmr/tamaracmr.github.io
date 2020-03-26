@@ -209,9 +209,9 @@ h6 { font-size: 14px; line-height: 20px;letter-spacing:3px;}
 	width: 0;
 	height: 0;
 }
-/*::selection {
+:selection {
 	background: rgba(100,100,100,.2); /* Safari */
-	}*/
-/*::-moz-selection {
+	}
+::-moz-selection {
 	background: rgba(100,100,100,.2); /* Firefox */
-}*/
+}
