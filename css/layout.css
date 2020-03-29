@@ -5390,8 +5390,8 @@ ul.countdown li p {
 
 @media only screen and (min-width: 1350px) {
   .cd-primary-nav .cd-label {
-    font-size: 28px;
-	letter-spacing:3px;
+    font-size: 25px;
+	letter-spacing:2px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1359px) {
