@@ -306,12 +306,13 @@ Main components
 }
 .cd-primary-nav a {
   display: inline-block;
-    text-transform: uppercase;
+  text-transform: uppercase;
   padding: .4em 0.8em;
   color:#212121;
-  -webkit-transition: background 0.3s, color 0.3s;
+    font-weight: 700;
+  /*-webkit-transition: background 0.3s, color 0.3s;
   -moz-transition: background 0.3s, color 0.3s;
-  transition: background 0.3s, color 0.3s;
+  transition: background 0.3s, color 0.3s;*/
 }
 .no-touch .cd-primary-nav a:hover {
 	color:#fff;
