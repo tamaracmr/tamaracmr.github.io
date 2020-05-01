@@ -558,7 +558,7 @@ body {
 .heading, blockquote, .btn-inline, .page-title li:not(:last-child):after, .widget.widget_contact_info .single-info p, .back-to-top .back-toop-tooltip span, .header .header-main.sticky .main-menu .nav > li > a, .single-blog-style--two .blog-content .post-meta li a,
 .single-blog-style--two .blog-content .post-meta li span, .blog-details .post-meta li, .blog-details .post-tags li:first-child,
 .blog-details .post-share li:first-child, .about-nav-tab .nav-tabs .nav-link, .single-process:hover .content h3, .single-project-item .project-body .project-meta span {
-  color: #3f3f3f;
+  color: #41b3b2;
 }
 
 .heading-bg, .btn-inline:after, .header .header-main.style--one .main-menu .offcanvas-trigger span {
@@ -665,7 +665,7 @@ body,
 
 /* Section Bg */
 .section-pattern {
-  background-size: contain;
+ 
   background-repeat: no-repeat;
 }
 
@@ -744,7 +744,7 @@ body,
 }
 
 .social_icon_list li a .fa-facebook {
-  color: #1d65e8;
+  color: white;
 }
 
 .social_icon_list li a .fa-twitter {
@@ -756,7 +756,7 @@ body,
 }
 
 .social_icon_list li a .fa-instagram {
-  color: #fb3958;
+  color: white;
 }
 
 /* Custom Owl */
@@ -1290,7 +1290,7 @@ blockquote {
   width: 100%;
   -webkit-animation: rotation 1s linear infinite;
   animation: rotation 1s linear infinite;
-  border: 1px solid #fb4275;
+  border: 2px solid #f44945;
   border-top: 1px solid transparent;
   border-radius: 100%;
 }
@@ -1520,7 +1520,7 @@ blockquote {
   font-weight: 500;
 }
 
-.page-title li:not(:last-child) {
+/*.page-title li:not(:last-child) {
   position: relative;
   padding-right: 15px;
   margin-right: 10px;
@@ -1529,12 +1529,12 @@ blockquote {
 .page-title li:not(:last-child):after {
   right: 0;
   position: absolute;
-  content: '/';
+content: '/';
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
+}*/
 
 /* ************************
    02.7: Widget
@@ -1860,7 +1860,7 @@ blockquote {
   line-height: 1;
   position: relative;
   z-index: 1;
-  text-transform: capitalize;
+ 
 }
 
 .header .header-main.style--one .main-menu .nav li ul {
@@ -2882,7 +2882,7 @@ blockquote {
    ********************* */
 .single-service {
   padding: 50px 20px;
-  background-color: #ffffff;
+  background-color:#f9d678a1;
   margin-bottom: 30px;
 }
 
