@@ -1319,7 +1319,7 @@ blockquote {
   transition: .3s ease-in-out .2s;
   z-index: 9;
   color: #f44945 !important;
-  background-color: #42b3b224 !important;
+  background-color:#f7966838 !important;
 }
 
 .btn span {
