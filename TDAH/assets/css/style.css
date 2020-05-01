@@ -146,14 +146,14 @@ img {
 }
 
 a {
-  color: #3f3f3f;
+  color: #1b4895;
   -webkit-transition: .3s linear;
   -o-transition: .3s linear;
   transition: .3s linear;
 }
 
 a:hover {
-  color: #fb4275;
+  color: #41b3b2;
 }
 
 a,
@@ -180,7 +180,7 @@ h6 {
   margin: 0;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  color: #3f3f3f;
+  color: #f44945;
   font-weight: 700;
   line-height: 1;
 }
@@ -255,7 +255,7 @@ body {
   overflow-x: hidden !important;
   font-size: 16px;
   line-height: 1.625;
-  color: #818181;
+  color: #1b4895;
     
 }
 
@@ -541,17 +541,18 @@ body {
    01.3: Color
    ********************* */
 .c1, .list-check li i, .theme-input-group button, .btn.btn-white span, .vdo-btn, .section-title h3, .page-title li, .appointment-modal .modal-dialog .modal-content .form-title, .header .header-main.style--one .main-menu #menu-button, .header .header-main.style--one .main-menu .nav li.current-menu-item > a, .header .header-main.style--one .main-menu .nav li.current-menu-parent > a, .header .header-main.style--one .main-menu .nav li ul li:hover > a, .offcanvas-wrapper .offcanvas-content .widget.widget_contact_info .single-info span, .single-blog-style--two .blog-content .post-meta li a:hover, .blog-details .post-meta li a:hover, .blog-details .post-tags li a:hover, .not-found-content p a, .coming-soon-content h1, #countdown li .single-countdown h4, #countdown li.seperator, .single-feature:hover .content h3, .single-process:hover .content h3, .about-nav-tab .nav-tabs .nav-link.active, .single-service .icon, .single-service:hover h4, .service-details .title, .pricing-navtab .nav-tabs .nav-link h4, .project-nav li.active, .single-team-member .team-info h4 {
-  color: #fb4275;
+  color: #41b3b2;
 }
 
 .c1-bg, ::selection, .bg-overlay:after, .btn-inline:hover:after, #menu-button.menu-opened span::before, #menu-button.menu-opened span::after, -thumb.offcanvas-wrapper::-webkit-scrollbar, .single-blog-item .blog-hover {
-  background-color: #fb4275;
+ 
 }
 
 .c1-bo, .owl-carousel .owl-nav button:before, .pagination li a:hover, .pagination li a.active,
 .pagination li span:hover,
 .pagination li span.active, blockquote, .widget.widget_tag_cloud .tagcloud a:hover, .about-nav-tab .nav-tabs .nav-link.active {
-  border-color: #fb4275 !important;
+  border-color: #f44945 !important;
+    background: #ffffff69;
 }
 
 .heading, blockquote, .btn-inline, .page-title li:not(:last-child):after, .widget.widget_contact_info .single-info p, .back-to-top .back-toop-tooltip span, .header .header-main.sticky .main-menu .nav > li > a, .single-blog-style--two .blog-content .post-meta li a,
@@ -573,7 +574,7 @@ body {
 }
 
 .text-color-bg, .owl-carousel button.owl-dot, #menu-button span, #menu-button span:before, #menu-button span:after {
-  background-color: #818181;
+  background-color: #1b4895;
 }
 
 .text-color-bo {
@@ -639,7 +640,7 @@ body,
   font-family: "Muli", sans-serif;
 }
 
-/* Gradient Background */
+/* Gradient Background 
 .gradient-bg, .owl-carousel button.owl-dot.active, .bg-overlay:after, .bg-hover-gradient:after, .pagination li a:after,
 .pagination li span:after, .widget.widget_tag_cloud .tagcloud a:after, .single-service.style--two:after, .pricing-navtab .nav-tabs .nav-link:after, .theme-input-group input, .btn:before, .btn:after,
 .btn span:before,
@@ -650,7 +651,7 @@ body,
   background: linear-gradient(45deg, #fb4275 0%, #f35d46 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb4275', endColorstr='#f35d46',GradientType=1);
 }
-
+*/
 /* Text White */
 .text-white *,
 .text-white h1,
@@ -659,7 +660,7 @@ body,
 .text-white h4,
 .text-white h5,
 .text-white h6 {
-  color: #ffffff;
+  color: #1b4895;
 }
 
 /* Section Bg */
@@ -1303,6 +1304,8 @@ blockquote {
    02.4: Buttons
    ********************* */
 .btn {
+    margin-top: 10px;
+    margin-left: 15px;
   border: none;
   border-radius: 0;
   padding: 0;
@@ -1315,8 +1318,8 @@ blockquote {
   -o-transition: .3s ease-in-out .2s;
   transition: .3s ease-in-out .2s;
   z-index: 9;
-  color: #fb4275 !important;
-  background-color: rgba(251, 66, 117, 0.1) !important;
+  color: #f44945 !important;
+  background-color: #42b3b224 !important;
 }
 
 .btn span {
@@ -1683,8 +1686,7 @@ blockquote {
   cursor: pointer;
   width: 35px;
   height: 35px;
-  -webkit-box-shadow: 0 4px 40px rgba(251, 67, 116, 0.4);
-  box-shadow: 0 4px 40px rgba(251, 67, 116, 0.4);
+
   font-size: 16px;
   color: #ffffff;
   border-radius: 50%;
@@ -1699,7 +1701,7 @@ blockquote {
   -webkit-transition: .3s ease-in;
   -o-transition: .3s ease-in;
   transition: .3s ease-in;
-  background-color: #fb4275;
+  background-color: #41b3b2;
 }
 
 .back-to-top.show {
@@ -2059,7 +2061,7 @@ blockquote {
   .header .header-main.style--one .main-menu ul li a {
     line-height: 1 !important;
     padding: 12px 15px;
-    color: #3f3f3f;
+    color: #1b4895;
   }
   .header .header-main.style--one .main-menu ul li.current-menu-item > a {
     color: #fb4275 !important;
@@ -2085,7 +2087,7 @@ blockquote {
     color: #f35d46;
   }
   .header .header-main.style--one.text-white .main-menu .nav > li.current-menu-item > a, .header .header-main.style--one.text-white .main-menu .nav > li.current-menu-parent > a, .header .header-main.style--one.text-white .main-menu .nav > li:hover > a {
-    color: initial !important;
+    color: #41b3b2 !important;
   }
 }
 
