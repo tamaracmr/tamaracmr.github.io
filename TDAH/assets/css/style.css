@@ -636,9 +636,9 @@ blockquote,
 }
 
 body,
-.muli {
+/*.muli {
   font-family: "Muli", sans-serif;
-}
+}*/
 
 
 /* Gradient Background 
@@ -804,7 +804,7 @@ body,
 .owl-carousel .owl-nav button:after {
   height: 18px;
   width: 1px;
-  background-color: #ffffff;
+  background-color: ;
   right: 0;
   z-index: -1;
 }
@@ -2005,7 +2005,7 @@ content: '/';
     left: 50%;
     right: 50%;
     width: calc(100% - 30px);
-    background: #fff;
+    background: #ffefc4f0;
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
     max-height: 350px;
@@ -2297,7 +2297,7 @@ content: '/';
 .single-blog-item {
   padding: 20px 30px 60px;
   margin-bottom: 30px;
-    background-color: #ffba004f;
+    background-color: #fffbea30;
 }
 
 .single-blog-item .date-bg-shape {
@@ -2886,7 +2886,7 @@ content: '/';
    ********************* */
 .single-service {
   padding: 50px 20px;
-  background-color:#f9d678a1;
+  background-color:#fbc14e7a;
   margin-bottom: 30px;
 }
 
