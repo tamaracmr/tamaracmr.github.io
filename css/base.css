@@ -50,8 +50,8 @@
 /* #Basic Styles
 ================================================== */
 body {
-	background: #fff;
-	font-family: 'Imprima', sans-serif;
+	background: #ffffff;
+	font-family: 'Syne', sans-serif;
 	font-weight:400;
 	font-size: 13px;
 	line-height:26px;
@@ -69,10 +69,10 @@ body {
 /* #Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-	color: #414141;
-    font-family: 'Raleway', sans-serif;
+	color: #0c00ff;
+    font-family: 'Syne', sans-serif;
 	text-align:center;
-    font-weight: 800;
+    font-weight: 700;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 40px; line-height:46px; }
@@ -157,7 +157,7 @@ h6 { font-size: 14px; line-height: 20px;letter-spacing:3px;}
 	input[type="submit"]:hover,
 	input[type="reset"]:hover,
 	input[type="button"]:hover {	
-	  color: #e74c3c;
+	  color: #ff007a;
 	background:#292929;	 }
 
 	.button:active,
@@ -165,7 +165,8 @@ h6 { font-size: 14px; line-height: 20px;letter-spacing:3px;}
 	input[type="submit"]:active,
 	input[type="reset"]:active,
 	input[type="button"]:active {	
-	  color: #e74c3c;}
+		color: #ff007a;
+	}
 
 	.button.full-width,
 	button.full-width,
