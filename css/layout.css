@@ -409,7 +409,7 @@ a.curent-nav-color{
 	border-right:1px solid transparent;
 }
 .list-social-nav li.icon-soc-nav a {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Syne', sans-serif;
 	font-size: 14px;
 	line-height: 30px;
 	width:50px;
@@ -1395,7 +1395,7 @@ video#video_background_home {
 	bottom: 50%;
 	margin-bottom: -1em;
 	padding: 18px 25px;
-	font-family: 'Imprima', sans-serif;
+	font-family:  'Syne', sans-serif;
 	font-weight:400;
 	font-size: 13px;
 	line-height:24px;
@@ -1819,7 +1819,7 @@ seven columns{
 	text-align:center;
 	color:#000;
 	letter-spacing:2px;
-	font-family: 'Imprima', sans-serif;
+	font-family:  'Syne', sans-serif;
 	font-size: 15px;
 	line-height:27px;
 }
@@ -1999,7 +1999,7 @@ seven columns{
 .pricing-item .number-price{
 	position:relative;
 	width:100%;
-	font-family: 'Imprima', sans-serif;
+	font-family:  'Syne', sans-serif;
 	font-weight:100;
 	font-size: 44px;
 	line-height:44px;
@@ -2016,7 +2016,7 @@ seven columns{
 	padding-right:8px;
 }
 .pricing-item .number-price span:last-child{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Syne', sans-serif;
 	font-size: 16px;
 	line-height:54px;
 	vertical-align:-1%;
@@ -2026,7 +2026,7 @@ seven columns{
 }
 .pricing-item a.price-link{
 	position:relative;
-    font-family: 'Raleway', sans-serif;
+    font-family:  'Syne', sans-serif;
 	text-align:center;
 	padding-top:10px;
 	padding-bottom:10px;
@@ -2201,7 +2201,7 @@ seven columns{
 	bottom:57px;
 	left:120px;
 	color:white;
-	font-family: 'Raleway', sans-serif;
+	font-family:  'Syne', sans-serif;
 	font-weight:700;
 	font-size: 9px;
 	line-height:26px;
@@ -2617,7 +2617,7 @@ seven columns{
 }
 .project-prev .text span,
 .project-next .text span{
-	font-family: 'Imprima', sans-serif;
+	font-family:  'Syne', sans-serif;
 	font-weight:600;
 	font-size: 10px;
 	color:#b5b5b5;
@@ -2688,7 +2688,7 @@ seven columns{
 	position: relative;
 	display: inline-block;
 	letter-spacing:3px;
-	font-family: 'Imprima', sans-serif;
+	font-family:  'Syne', sans-serif;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -3277,7 +3277,7 @@ animated buttons - animate the text inside prev and next buttons
 .content-post .quote-aut{
 	position:relative;
 	letter-spacing:2px;
-	ffont-family: 'Syne', sans-serif;
+	font-family: 'Syne', sans-serif;
 	font-size: 14px;
 	line-height:26px;
 	color:#000;
@@ -3324,7 +3324,7 @@ animated buttons - animate the text inside prev and next buttons
 	display:block;
 	float:right;
 	letter-spacing:3px;
-	font-family: 'Imprima', sans-serif;
+	font-family: 'Syne', sans-serif;
 	text-transform:uppercase;
 	font-size: 11px;
 	line-height:26px;
@@ -3454,7 +3454,7 @@ animated buttons - animate the text inside prev and next buttons
 	position:relative;
 	display:block;
 	cursor:pointer;
-	font-family: 'Imprima', sans-serif;
+	font-family:  'Syne', sans-serif;
 	font-size: 11px;
 	line-height:21px;
 	text-align:left;
@@ -4314,7 +4314,7 @@ a.checkout__button:focus {
     -webkit-box-sizing: border-box;
 }
 .shop-item-details .price{
-	font-family: 'Raleway', sans-serif;
+	font-family:  'Syne', sans-serif;
 	font-weight:700;
 	font-size: 50px;
 	line-height:50px;
@@ -4490,7 +4490,7 @@ a.checkout__button:focus {
 
 #ajax-form {
 	width: 100%;
-	font-family: 'Imprima', sans-serif;
+	font-family:  'Syne', sans-serif;
 	font-size: 10px;
 	line-height:14px;
 	color:#101010;
@@ -4498,7 +4498,7 @@ a.checkout__button:focus {
 }
 #ajax-form label {
 	display: block;
-	font-family: 'Imprima', sans-serif;
+	font-family:  'Syne', sans-serif;
 	font-size: 14px;
 	line-height:30px;
 }
@@ -4507,7 +4507,7 @@ a.checkout__button:focus {
 	width:100%;
 	padding-left:20px;
 	padding-right:20px;
-	font-family: 'Imprima', sans-serif;
+	font-family:  'Syne', sans-serif;
 	font-weight:600;
 	letter-spacing:1px;
 	font-size: 13px;
@@ -4550,7 +4550,7 @@ a.checkout__button:focus {
 #ajaxsuccess {
 	background: #f2f2f2;
 	color:#101010;
-	font: 20px/60px 'Open Sans', sans-serif;
+	font: 20px/60px  'Syne', sans-serif;
 	height:60px;
 	display: none;
 	padding-left:10px;
