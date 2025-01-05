@@ -451,8 +451,11 @@ input:focus, textarea:focus {
     text-decoration: none;
     -webkit-transition: color 100ms;
             transition: color 100ms;
-    border: none;
+   
     font-weight: 300;
+    
+
+
 }
 
 #sidebar nav ul li a.current, #sidebar nav ul li span.current {
@@ -829,7 +832,7 @@ input:focus, textarea:focus {
 }
 
 #sidebar .widgets-block .widget.recent-projects ul li a:hover {
-    color: #48ba86;
+    color: #e56538;
 }
 
 #sidebar .widgets-block .widget.blog-categories ul li a {
@@ -1485,7 +1488,8 @@ input:focus, textarea:focus {
 
 #about-page #main .approach .text .links li a {
     font-size: 17px;
-    border-bottom: 1px solid rgba(72, 186, 134, 0.3);
+    border: 1px solid #e56538;
+    padding: 3px;
 }
 
 #about-page #main .approach .text .links li a:hover {
