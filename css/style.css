@@ -93,18 +93,42 @@ p {
 }
 
 p.lead{
+
+    /*
     font-size: 18px;
      background-color:#A874E3;
-     z-index:-1;
-     position:absolute;
+   
+   
+    
  
-  height:2rem;
+  
   color: white;
   padding-left:8px ;
   padding-right:8px ;
   border-radius: 5px;
   line-height: 2rem;
-  text-overflow: ellipsis;
+  display: inline;
+  height:2rem;*/
+
+  
+    background:#A874E3;
+   
+    display: inline;
+
+    color: white;
+    padding-left:8px ;
+    padding-right:8px ;
+    border-radius: 5px;
+
+    font-size: 18px;
+    position: absolute;
+  
+    
+
+  
+
+ 
+  
       
 }
 
@@ -419,6 +443,7 @@ input:focus, textarea:focus {
 
 .page-title p {
     margin-top: 25px;
+    
 }
 
 .page-title .page-title-image {
